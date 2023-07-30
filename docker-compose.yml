@@ -1,0 +1,10 @@
+version: '3'
+services:
+  backend:
+    build: ./Backend # replace with the path to your backend directory
+    ports:
+      - 8000:8000
+  frontend:
+    build: ./Frontend # replace with the path to your frontend directory
+    ports:
+      - 3000:3000
